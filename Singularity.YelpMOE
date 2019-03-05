@@ -8,6 +8,4 @@ Bootstrap: docker
 %runscript
 	echo "This is running!"
 
-%post
-	chmod -R 777 /opt/conda
 	
