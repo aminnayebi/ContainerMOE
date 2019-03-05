@@ -1,0 +1,13 @@
+Bootstrap: docker
+	From: yelpmoe/latest
+
+%labels
+	MAINTAINER aminnayebi
+
+
+%runscript
+	echo "This is running!"
+
+%post
+	chmod -R 777 /opt/conda
+	
