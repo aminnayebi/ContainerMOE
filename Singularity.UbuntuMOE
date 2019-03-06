@@ -1,5 +1,5 @@
 Bootstrap: docker
-	From: ununtu:latest
+	From: ubuntu:latest
 
 %labels
 	MAINTAINER aminnayebi
