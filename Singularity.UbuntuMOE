@@ -1,0 +1,12 @@
+Bootstrap: docker
+	From: ununtu:latest
+
+%labels
+	MAINTAINER aminnayebi
+
+
+%runscript
+	echo "This is running!"
+
+%post
+	apt-get update && apt-get -y install wget build-essential
