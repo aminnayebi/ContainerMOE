@@ -10,4 +10,3 @@ Bootstrap: docker
 
 %runscript
 	echo "This is running!"
-
